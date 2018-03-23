@@ -11,12 +11,12 @@ _Fun isn't it?_
 ## How to achieve?
 If there's no JS, then there's CSS. To achive the task we need to make a new [CSS file](https://github.com/Kvaibhav01/Ripple-without-JS/blob/master/demo/style.css) having:
 
-- **[Container](https://www.w3schools.com/w3css/w3css_containers.asp)**: [`display`](https://www.w3schools.com/cssref/pr_class_display.asp) property set to `flex` to make it of same length regarless of the content it has.
+- **[Container](https://www.w3schools.com/w3css/w3css_containers.asp)**: [`display`](https://www.w3schools.com/cssref/pr_class_display.asp) property set to `flex` to make it of same length regardless of the content.
   
-- **Ripple**: [`transform`](https://www.w3schools.com/cssref/css3_pr_transform.asp) property se to `translate3d` to define a 3D translation.
+- **Ripple**: [`transform`](https://www.w3schools.com/cssref/css3_pr_transform.asp) property set to `translate3d` to define a 3D translation.
 
-- **Ripple-after**: this is where the ripple effect ends. We can show something like a text but it dosn't make sense here. Therefor the `content` has been set to `""`.
-  - `background-image`'s value has been set to the [`radial-gradient`](https://www.w3schools.com/cssref/func_radial-gradient.asp) function which takes in a `circle`as its `shape`, #fff or white as the `start-color` and `last-color` as `transparent 10.01%`.
+- **Ripple-after**: this is where the ripple effect ends. We can show something like a text but it dosn't make sense here. Therefore the `content` has been set to `""`.
+  - `background-image`'s value has been set to the [`radial-gradient`](https://www.w3schools.com/cssref/func_radial-gradient.asp) function which takes in a `circle` as its `shape`, `#fff` or white as the `start-color` and `last-color` as `transparent 10.01%`.
   - `transition` is used along with `transform` with its corresponding timing and `opacity`.
   
 #### That's it! Simple, clean and Materialistic!  
