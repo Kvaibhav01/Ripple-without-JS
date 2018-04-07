@@ -1,6 +1,9 @@
 # Ripple-without-JS
 Create [Material Design](https://material.io/) ripple effect in your HTML without using a single line of JavaScript code.
 
+[![forthebadge](https://forthebadge.com/images/badges/validated-html5.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/uses-css.svg)](https://forthebadge.com)
+
+
 ## What's the output?
 Here it is!
 
