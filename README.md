@@ -18,7 +18,7 @@ If there's no JS, then there's CSS. To achive the task we need to make a new [CS
   
 - **Ripple**: [`transform`](https://www.w3schools.com/cssref/css3_pr_transform.asp) property set to `translate3d` to define a 3D translation.
 
-- **Ripple-after**: this is where the ripple effect ends. We can show something like a text but it dosn't make sense here. Therefore the `content` has been set to `""`.
+- **Ripple-after**: this is where the ripple effect ends. We can show something like a text but it doesn't make sense here. Therefore the `content` has been set to `""`.
   - `background-image`'s value has been set to the [`radial-gradient`](https://www.w3schools.com/cssref/func_radial-gradient.asp) function which takes in a `circle` as its `shape`, `#fff` or white as the `start-color` and `last-color` as `transparent 10.01%`.
   - `transition` is used along with `transform` with its corresponding timing and `opacity`.
   
