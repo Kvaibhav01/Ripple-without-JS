@@ -24,3 +24,6 @@ If there's no JS, then there's CSS. To achive the task we need to make a new [CS
   
 #### That's it! Simple, clean and Materialistic!  
   
+## I've written a supporting blog post on  [Codeburst](https://codeburst.io/) publication on [Medium](https://medium.com/). 
+
+You can read the complete post and hit a clap or two [here](https://codeburst.io/create-a-material-design-ripple-effect-without-js-9d3cbee25b3e)!
