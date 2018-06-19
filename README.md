@@ -3,6 +3,7 @@ Create [Material Design](https://material.io/) ripple effect in your HTML withou
 
 [![forthebadge](https://forthebadge.com/images/badges/validated-html5.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/uses-css.svg)](https://forthebadge.com)
 
+## LIVE DEMO: https://kvaibhav01.github.io/Ripple-without-JS/
 
 ## What's the output?
 Here it is!
