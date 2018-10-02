@@ -1,45 +1,117 @@
-.container
-{
-  background-color: #c1c1c1;
-  height: 500px;
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+/* align items */
+.container {
+  min-height: 100vh;
+  text-align: center;
+}
+
+.flex {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
 
-.btn
-{
-  background-color: orange;
-  color: #fff;
-  font-size: 40px;
-  padding: 20px 20px;
+.column {
+  flex-direction: column
 }
+
+/* align items */
+
+/* text style*/
+p {
+  margin: 0;
+}
+
+h1 {
+  margin: 0 0 8px 0;
+}
+
+p {
+  opacity: .5;
+}
+
+.box-btn {
+  margin-top: 16px;
+}
+
+/* text style*/
+
+
+/* btn styles */
+.btn {
+  background-color: #1D27E7;
+  color: #fff;
+  min-width: 160px;
+  font-size: 1.3rem;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+  transition: 0.3s;
+  border-radius: 4px;
+  border: 2px solid #1D27E7;
+  outline: none;
+  white-space: nowrap;
+  font-weight: 500;
+  vertical-align: middle;
+  margin: 5px;
+  box-shadow: 0 0 2px -2px rgba(29, 39, 231, .1),
+    0 0 3px 0 rgba(29, 39, 231, .1),
+    0 0 5px 0 rgba(29, 39, 231, .1),
+    0 2px 2px -4px rgba(29, 39, 231, .1),
+    0 4px 8px 0 rgba(29, 39, 231, .1),
+    0 2px 15px 0 rgba(29, 39, 231, .1)
+}
+
+.btn:hover {
+  background-color: #131BB4;
+  border-color: #131BB4;
+  color: #fff;
+}
+
+.btn-outline {
+  background-color: transparent;
+  color: #131BB4;
+}
+
+/* btn styles */
 
 /*Create ripple effec*/
 
 .ripple {
- position: relative;
- overflow: hidden;
- transform: translate3d(0, 0, 0);
+  position: relative;
+  overflow: hidden;
+  transform: translate3d(0, 0, 0);
 }
+
 .ripple:after {
- content: "";
- display: block;
- position: absolute;
- width: 100%;
- height: 100%;
- top: 0;
- left: 0;
- pointer-events: none;
- background-image: radial-gradient(circle, #fff 10%, transparent 10.01%);
- background-repeat: no-repeat;
- background-position: 50%;
- transform: scale(10, 10);
- opacity: 0;
- transition: transform .5s, opacity 1s;
+  content: "";
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  background-image: radial-gradient(circle, #fff 10%, transparent 10.01%);
+  background-repeat: no-repeat;
+  background-position: 50%;
+  transform: scale(10, 10);
+  opacity: 0;
+  transition: transform .5s, opacity 1s;
 }
+
 .ripple:active:after {
- transform: scale(0, 0);
- opacity: .3;
- transition: 0s;
+  transform: scale(0, 0);
+  opacity: .3;
+  transition: 0s;
 }
