@@ -8,7 +8,7 @@ Create [Material Design](https://material.io/) ripple effect in your HTML withou
 ## What's the output?
 Here it is!
 
-![Ripple demo](https://raw.githubusercontent.com/Kvaibhav01/Ripple-without-JS/master/demo.gif)
+![Ripple demo](https://github.com/Kvaibhav01/Ripple-without-JS/blob/master/rippleWithoutJSGIF.gif)
 
 _Fun isn't it?_
 
