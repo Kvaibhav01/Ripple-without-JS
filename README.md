@@ -13,7 +13,7 @@ Here it is!
 _Fun isn't it?_
 
 ## How to achieve?
-If there's no JS, then there's CSS. To achive the task we need to make a new [CSS file](https://github.com/Kvaibhav01/Ripple-without-JS/blob/master/demo/style.css) having:
+If there's no JS, then there's CSS. To achive the task we need to make a new [CSS file](https://github.com/Kvaibhav01/Ripple-without-JS/blob/master/style.css) having:
 
 - **[Container](https://www.w3schools.com/w3css/w3css_containers.asp)**: [`display`](https://www.w3schools.com/cssref/pr_class_display.asp) property set to `flex` to make it of same length regardless of the content.
   
